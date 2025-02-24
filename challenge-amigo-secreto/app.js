@@ -4,19 +4,22 @@ let amigos = [];
 
 function adicionarAmigo() {
   let amigo = document.getElementById("amigo").value;
+
   if (amigo) {
     amigos.push(amigo);
-    document.getElementById("amigo").value = "";
-
     const lista = document.getElementById("listaAmigos");
-    lista.innerHTML = amigos;
+    lista.innerHTML = "";
+
+    for (const nomes of amigos) {
+      const item = document.createElement("li");
+      item.textContent = nomes;
+      lista.appendChild(item);
+    }
+
+    document.getElementById("amigo").value = "";
   } else {
     alert("Por favor, insira um nome válido.");
   }
 
   console.log(amigo, amigos);
 }
-
-// const incluirLista = {
-//   document.getElementById('listaAmigos')
-// };
