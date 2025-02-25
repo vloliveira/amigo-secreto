@@ -31,5 +31,5 @@ O usuário pode adicionar um amigo por vez à lista e, ao clicar no botão "Sort
 
 4. O nome do amigo secreto será exibido na tela.
 
-**Desenvolvido por:** [Vitor Lopes de Oliveira]  
+**Desenvolvido por:** Vitor Oliveira  
 **Como parte do curso ONE - Oracle Next Education**
