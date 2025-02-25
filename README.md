@@ -18,7 +18,7 @@ O usuário pode adicionar um amigo por vez à lista e, ao clicar no botão "Sort
 
 - Sortear Amigo: Ao clicar no botão "Sortear amigo", o sistema seleciona aleatoriamente um nome da lista como o amigo secreto.
 
-Você pode testar as funcionalidades por este link: https://vloliveira.github.io/amigo-secreto/
+
 
 ## Instruções de Uso
 
